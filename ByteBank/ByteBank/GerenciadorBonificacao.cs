@@ -15,10 +15,12 @@ namespace ByteBank
             _totalBonificacao += funcionario.GetBonificacao();
         }
 
-        public void Registrar(Diretor diretor)
-        {
-            _totalBonificacao += diretor.GetBonificacao();
-        }
+        // Aqui tem-se um Método "Registrar" com o mesmo nome. Isso é válido para lista de argumentos diferentes (diretor e funcionário), chamado de sobrecarga
+
+        //public void Registrar(Diretor diretor)
+        //{
+        //    _totalBonificacao += diretor.GetBonificacao();
+        //}
 
         public double GetTotalBonificacao()
         {

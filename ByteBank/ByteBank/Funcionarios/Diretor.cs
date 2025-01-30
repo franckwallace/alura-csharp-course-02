@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    internal class Diretor
+    // Ao inserir dois pontos (:), diz-se que o Diretor é uma classe derivada do Funcionário, herdando seus parâmetros
+    internal class Diretor : Funcionario
     {
-        public string Nome { get; set; }
-        public string CPF { get; set; }
-        public double Salario { get; set; }
+        //public string Nome { get; set; }
+        //public string CPF { get; set; }
+        //public double Salario { get; set; }
 
-        public double GetBonificacao()
+        // a palavra reservada "override" indica que o Método dessa classe derivada está sobrepondo/sobrescrevendo o Método "GetBonificacao" da sua classe mãe (no caso, Funcionario)
+        public override double GetBonificacao()
         { 
-            return Salario * 1.0; 
+            // a palavra reservada "base." evita um looping do Método GetBonificacao nessa classe derivada, chamando o Método contido na classe de origem (Funcionario)
+
+            return (Salario * 1.0) + (base.GetBonificacao()); 
         }
     }
 }

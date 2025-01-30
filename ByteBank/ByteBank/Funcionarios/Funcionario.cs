@@ -28,7 +28,8 @@ namespace ByteBank.Funcionarios
         //}
 
         // Método que retorna a bonificação
-        public double GetBonificacao() 
+        // a palavra reservada "virtual" indica que o Método "GetBonificacao" pode ser sobrescrito por um método de uma classe derivada, como Diretor, no caso
+        public virtual double GetBonificacao() 
         {
             //if (_tipo == 1)
             //{
