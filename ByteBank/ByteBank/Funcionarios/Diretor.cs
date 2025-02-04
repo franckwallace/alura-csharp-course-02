@@ -13,12 +13,18 @@ namespace ByteBank.Funcionarios
         //public string CPF { get; set; }
         //public double Salario { get; set; }
 
+        // Chamando o construtor da classe base, passando-se adiante o argumento "cpf"
+        public Diretor(string cpf) : base(cpf)
+        {
+            Console.WriteLine("Criando DIRETOR");
+        }
+
         // a palavra reservada "override" indica que o Método dessa classe derivada está sobrepondo/sobrescrevendo o Método "GetBonificacao" da sua classe mãe (no caso, Funcionario)
         public override double GetBonificacao()
         { 
             // a palavra reservada "base." evita um looping do Método GetBonificacao nessa classe derivada, chamando o Método contido na classe de origem (Funcionario)
 
-            return (Salario * 1.0) + (base.GetBonificacao()); 
+            return (base.Salario * 1.0) + (base.GetBonificacao()); 
         }
     }
 }

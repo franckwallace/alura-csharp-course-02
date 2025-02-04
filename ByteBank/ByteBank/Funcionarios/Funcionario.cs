@@ -17,8 +17,14 @@ namespace ByteBank.Funcionarios
 
 
         // Criando novas Propriedades para o funcionário
+
+        // Criando um campo estático (é uma propriedade da classe) para obter o total de funcionários
+        // o "set" é private porque não pode ser alterado de fora
+        public static int TotalDeFuncionario { get; private set; }
+
         public string Nome { get; set; }
-        public string CPF { get; set; }
+        // privando o CPF para ele não ser usado lá fora
+        public string CPF { get; private set; }
         public double Salario { get; set; }
 
         // Construtor "Funcionario" que indica qual tipo de funcionário o objeto criado faz parte
@@ -27,9 +33,20 @@ namespace ByteBank.Funcionarios
         //    _tipo = tipo;
         //}
 
+        // Criando um Construtor para calcular o total de funcionário
+        // Colocando uma obrigação no Construtor de ser informado o "cpf"
+        public Funcionario(string cpf)
+        {
+            // imprimindo para função de testes
+            Console.WriteLine("Criando FUNCIONARIO");
+            TotalDeFuncionario++;
+
+            CPF = cpf;
+        }
+
         // Método que retorna a bonificação
         // a palavra reservada "virtual" indica que o Método "GetBonificacao" pode ser sobrescrito por um método de uma classe derivada, como Diretor, no caso
-        public virtual double GetBonificacao() 
+        public virtual double GetBonificacao()
         {
             //if (_tipo == 1)
             //{

@@ -13,17 +13,26 @@ namespace ByteBank
         {
             GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
-            Funcionario geovana = new Funcionario();
+            // adicionando o CPF como argumento
+            Funcionario geovana = new Funcionario("123.456.789-00");
 
             geovana.Nome = "Geovana";
-            geovana.CPF = "123.456.789-00";
+            // geovana.CPF = "123.456.789-00";
             geovana.Salario = 2000;
 
-            Diretor larissa = new Diretor();
+            // imprimindo o resultado do construtor Total de Funcionário
+            Console.WriteLine(Funcionario.TotalDeFuncionario);
+
+            Diretor larissa = new Diretor("000.999.789-00");
 
             larissa.Nome = "Larissa";
-            larissa.CPF = "000.999.789-00";
+            // larissa.CPF = "000.999.789-00";
             larissa.Salario = 5000;
+
+            Console.WriteLine("Bonificação de uma referência de Diretor: " + geovana.GetBonificacao());
+
+            // imprimindo o resultado do construtor Total de Funcionário
+            Console.WriteLine(Funcionario.TotalDeFuncionario);
 
             //atribuindo dentro da variável Funcionário um tipo mais derivado, de uma classe filha (no caso, Diretor, que é também um funcionário)
             // colocar em uma variável do tipo base um objeto especializado se chama "Polimorfismo"
