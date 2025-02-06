@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\bytebank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|c:\\users\\franc\\onedrive\\programas\\aulas\\c#\\projetos\\alura\\3-csharp\\source\\repos\\bytebank\\bytebank\\funcionarios\\gerentedeconta .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\funcionarios\\gerentedeconta .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\bytebank\\funcionarios\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\funcionarios\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\bytebank\\funcionarios\\diretor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\funcionarios\\diretor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|c:\\users\\franc\\onedrive\\programas\\aulas\\c#\\projetos\\alura\\3-csharp\\source\\repos\\bytebank\\bytebank\\funcionarios\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\funcionarios\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\bytebank\\gerenciadorbonificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\gerenciadorbonificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|c:\\users\\franc\\onedrive\\programas\\aulas\\c#\\projetos\\alura\\3-csharp\\source\\repos\\bytebank\\bytebank\\funcionarios\\designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\funcionarios\\designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|c:\\users\\franc\\onedrive\\programas\\aulas\\c#\\projetos\\alura\\3-csharp\\source\\repos\\bytebank\\bytebank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|c:\\users\\franc\\onedrive\\programas\\aulas\\c#\\projetos\\alura\\3-csharp\\source\\repos\\bytebank\\bytebank\\funcionarios\\auxiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88F07549-56DA-4848-92D2-BAE2CEC4B320}|ByteBank\\ByteBank.csproj|solutionrelative:bytebank\\funcionarios\\auxiliar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +54,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GerenteDeConta .cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\GerenteDeConta .cs",
+              "RelativeDocumentMoniker": "ByteBank\\Funcionarios\\GerenteDeConta .cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\GerenteDeConta .cs",
+              "RelativeToolTip": "ByteBank\\Funcionarios\\GerenteDeConta .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:50:45.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Designer.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\Designer.cs",
+              "RelativeDocumentMoniker": "ByteBank\\Funcionarios\\Designer.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\Designer.cs",
+              "RelativeToolTip": "ByteBank\\Funcionarios\\Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:49:40.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Auxiliar.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\Auxiliar.cs",
+              "RelativeDocumentMoniker": "ByteBank\\Funcionarios\\Auxiliar.cs",
+              "ToolTip": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\Auxiliar.cs",
+              "RelativeToolTip": "ByteBank\\Funcionarios\\Auxiliar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T01:49:05.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GerenciadorBonificacao.cs",
               "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\GerenciadorBonificacao.cs",
@@ -50,43 +101,44 @@
               "RelativeToolTip": "ByteBank\\GerenciadorBonificacao.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T01:42:33.486Z"
+              "WhenOpened": "2025-01-29T01:42:33.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Diretor.cs",
               "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\Diretor.cs",
               "RelativeDocumentMoniker": "ByteBank\\Funcionarios\\Diretor.cs",
               "ToolTip": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\Diretor.cs",
               "RelativeToolTip": "ByteBank\\Funcionarios\\Diretor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB0AAAC1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T01:36:57.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Funcionario.cs",
               "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\Funcionario.cs",
               "RelativeDocumentMoniker": "ByteBank\\Funcionarios\\Funcionario.cs",
               "ToolTip": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Funcionarios\\Funcionario.cs",
               "RelativeToolTip": "ByteBank\\Funcionarios\\Funcionario.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAA9wDEAAABOAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T23:38:52.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Program.cs",
               "RelativeDocumentMoniker": "ByteBank\\Program.cs",
               "ToolTip": "C:\\Users\\franc\\OneDrive\\Programas\\Aulas\\C#\\Projetos\\Alura\\3-CSharp\\source\\repos\\ByteBank\\ByteBank\\Program.cs",
               "RelativeToolTip": "ByteBank\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAgwD4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-28T23:36:45.847Z",
               "EditorCaption": ""
