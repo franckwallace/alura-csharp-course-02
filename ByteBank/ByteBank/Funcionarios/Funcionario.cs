@@ -25,7 +25,7 @@ namespace ByteBank.Funcionarios
         public string Nome { get; set; }
         // privando o CPF para ele não ser usado lá fora
         public string CPF { get; private set; }
-        public double Salario { get; set; }
+        public double Salario { get; protected set; }
 
         // Construtor "Funcionario" que indica qual tipo de funcionário o objeto criado faz parte
         //public Funcionario(int tipo) 
@@ -35,13 +35,24 @@ namespace ByteBank.Funcionarios
 
         // Criando um Construtor para calcular o total de funcionário
         // Colocando uma obrigação no Construtor de ser informado o "cpf"
-        public Funcionario(string cpf)
+        // Colocando uma obrigação no Construtor de ser informado o "salário"
+        public Funcionario(double salario, string cpf)
         {
             // imprimindo para função de testes
             Console.WriteLine("Criando FUNCIONARIO");
             TotalDeFuncionario++;
 
             CPF = cpf;
+            Salario = salario;
+        }
+
+        // Implementando um método que aumenta o salário do funcionário e suas classes derivadas
+        // A palavra "virtual" possibilita que classes herdeiras (como Diretor) possam mudar (sobrescrever, override) essa implementação
+        public virtual void AumentarSalario()
+        {
+            // Salario = Salario + (Salario * 0.1);
+            // Salario = Salario * 1.1;
+            Salario *= 1.1;
         }
 
         // Método que retorna a bonificação

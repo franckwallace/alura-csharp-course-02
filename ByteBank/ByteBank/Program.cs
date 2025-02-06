@@ -14,20 +14,30 @@ namespace ByteBank
             GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
 
             // adicionando o CPF como argumento
-            Funcionario geovana = new Funcionario("123.456.789-00");
+            Funcionario geovana = new Funcionario(2000, "123.456.789-00");
 
             geovana.Nome = "Geovana";
             // geovana.CPF = "123.456.789-00";
-            geovana.Salario = 2000;
+            // geovana.Salario = 2000;
+
+            geovana.AumentarSalario();
+
+            // imprimindo o resultado do método AumentarSalario
+            Console.WriteLine("Novo salário da Geovana: " + geovana.Salario + "\n");
 
             // imprimindo o resultado do construtor Total de Funcionário
             Console.WriteLine(Funcionario.TotalDeFuncionario);
 
-            Diretor larissa = new Diretor("000.999.789-00");
+            Diretor larissa = new Diretor(5000, "000.999.789-00");
 
             larissa.Nome = "Larissa";
             // larissa.CPF = "000.999.789-00";
-            larissa.Salario = 5000;
+            // larissa.Salario = 5000;
+
+            larissa.AumentarSalario();
+
+            // imprimindo o resultado do método AumentarSalario
+            Console.WriteLine("Novo salário da Larissa: " + larissa.Salario + "\n");
 
             Console.WriteLine("Bonificação de uma referência de Diretor: " + geovana.GetBonificacao());
 

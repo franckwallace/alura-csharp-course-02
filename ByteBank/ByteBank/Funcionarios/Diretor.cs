@@ -14,9 +14,17 @@ namespace ByteBank.Funcionarios
         //public double Salario { get; set; }
 
         // Chamando o construtor da classe base, passando-se adiante o argumento "cpf"
-        public Diretor(string cpf) : base(cpf)
+        // Chamando o construtor da classe base, passando-se adiante o argumento "salario"
+        public Diretor(double salario, string cpf) : base(salario, cpf)
         {
             Console.WriteLine("Criando DIRETOR");
+
+        }
+
+        // Com o "virtual" na classe base, pode-se sobrescrever (override) o método AumentarSalario
+        public override void AumentarSalario()
+        {
+            Salario *= 1.15;
         }
 
         // a palavra reservada "override" indica que o Método dessa classe derivada está sobrepondo/sobrescrevendo o Método "GetBonificacao" da sua classe mãe (no caso, Funcionario)
