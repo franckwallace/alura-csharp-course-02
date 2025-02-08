@@ -12,6 +12,7 @@ namespace ByteBank.Funcionarios
         // Chamando o construtor da classe base, passando-se adiante o argumento "salario"
         public GerenteDeConta(string cpf) : base(4000, cpf)
         {
+            Console.WriteLine("Criando GERENTE DE CONTA");
         }
 
         // Com o "virtual" na classe base, pode-se sobrescrever (override) o método AumentarSalario
