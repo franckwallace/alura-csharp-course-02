@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ByteBank.Funcionarios
 {
     // adicionando o Modificador 'abstract' na classe Funcionário
-    internal abstract class Funcionario
+    public abstract class Funcionario
     {
         // Criando o campo "_tipo" que será usado no Construtor "Funcionario"
         // 0 - Funcionario

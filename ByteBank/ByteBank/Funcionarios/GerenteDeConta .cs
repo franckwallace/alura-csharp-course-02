@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ByteBank.Sistemas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    internal class GerenteDeConta : Funcionario
+    public class GerenteDeConta : Autenticavel
     {
         // Chamando o construtor da classe base, passando-se adiante o argumento "cpf"
         // Chamando o construtor da classe base, passando-se adiante o argumento "salario"

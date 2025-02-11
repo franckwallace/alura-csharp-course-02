@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ByteBank.Sistemas;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 namespace ByteBank.Funcionarios
 {
     // Ao inserir dois pontos (:), diz-se que o Diretor é uma classe derivada do Funcionário, herdando seus parâmetros
-    internal class Diretor : Funcionario
+    public class Diretor : Autenticavel
     {
         //public string Nome { get; set; }
         //public string CPF { get; set; }
