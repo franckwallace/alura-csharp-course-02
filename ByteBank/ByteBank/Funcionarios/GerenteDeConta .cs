@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ByteBank.Funcionarios
 {
-    public class GerenteDeConta : Autenticavel
+    public class GerenteDeConta : FuncionarioAutenticavel
     {
         // Chamando o construtor da classe base, passando-se adiante o argumento "cpf"
         // Chamando o construtor da classe base, passando-se adiante o argumento "salario"

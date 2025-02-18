@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace ByteBank.Funcionarios
 {
     // Ao inserir dois pontos (:), diz-se que o Diretor é uma classe derivada do Funcionário, herdando seus parâmetros
-    public class Diretor : Autenticavel
+    public class Diretor : FuncionarioAutenticavel
     {
         //public string Nome { get; set; }
         //public string CPF { get; set; }

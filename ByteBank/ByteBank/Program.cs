@@ -25,8 +25,12 @@ namespace ByteBank
             larissa.Nome = "Larissa";
             larissa.Senha = "abc";
 
+            ParceiroComercial parceiro = new ParceiroComercial();
+            parceiro.Senha = "xyz";
+
             sistemaInterno.Logar(larissa, "abc");
             sistemaInterno.Logar(geovana, "123");
+            sistemaInterno.Logar(parceiro, "xyz");
 
             Console.ReadLine();
         }
